@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "HOST=0.0.0.0 nuxt",
+    "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "heroku-postbuild": "nuxt generate",
     "generate": "nuxt generate"
+  },
+  "engines": {
+    "node": "8.0.0",
+    "npm" : "5.0.0"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.5",

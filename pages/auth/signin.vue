@@ -1,7 +1,7 @@
 <template>
   <v-row align="center" justify="center">
     <v-col cols="12" sm="8" md="4" align="center">
-      <v-card width="500" class="elevation-4 text-left" shaped color="yellow">
+      <v-card width="500" class="elevation-4 text-left" shaped color="light-blue accent-2">
         <v-card-title>Login</v-card-title>
         <v-card-subtitle>Login to your dashboard</v-card-subtitle>
         <v-card-text>
@@ -25,13 +25,18 @@
         </v-card-text>
         <v-card-actions class="text-center">
           <v-btn
+          color="cyan accent-3"
             class="login-button"
             @click="login"
             depressed
             large
             >Login</v-btn
           >
-          <v-btn class="reset-button" @click="forgotPassword" depressed large
+          <v-btn 
+          color="teal accent-3"
+          class="reset-button" 
+          @click="forgotPassword" 
+          depressed large
             >Forgot Password</v-btn
           >
         </v-card-actions>

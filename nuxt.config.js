@@ -51,12 +51,13 @@ export default {
         '@nuxtjs/firebase',
         {
           config: {
-              apiKey: "AIzaSyBIpGTddqJVdxjvvS7BrURpcGDpP3zypJE",
-              authDomain: "fir-nuxt-auth-12f4a.firebaseapp.com",
-              projectId: "fir-nuxt-auth-12f4a",
-              storageBucket: "fir-nuxt-auth-12f4a.appspot.com",
-              messagingSenderId: "7425042073",
-              appId: "1:7425042073:web:94dc7a2bf077ff8e9c3a08"
+            apiKey: "AIzaSyDbzjO2vz0ha-wHDncE3DGWzGNaMBmSaRM",
+            authDomain: "fisebase-nuxt-auth.firebaseapp.com",
+            projectId: "fisebase-nuxt-auth",
+            storageBucket: "fisebase-nuxt-auth.appspot.com",
+            messagingSenderId: "183879591595",
+            appId: "1:183879591595:web:5d744fdac3725f85aa39ee",
+            measurementId: "G-LBPTT9FV9R"
           },
           services: {
             auth: {
